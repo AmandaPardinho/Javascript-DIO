@@ -3,7 +3,7 @@
 > Início dos estudos com javascript no bootcamp da DIO.
 >
 ---
-## **Operações Matemáticas**
+## :abacus: **Operações Matemáticas** 
 > A pasta **math_operation** contém o arquivo **calculus.js** com a resolução do problema proposto na Aula 1 do módulo "Primriros Passos com JavaScript". Após a primeira parte da aula, na qual o professor Renan ensinou como declarar variáveis em JavaScript, foi proposto um problema aplicando os conceitos estudados em aula.
 > 
 >Neste desafio, deveríamos calcular o valor de combustível gasto numa determinada viagem de carro. Minha resolução ficou ligeiramente diferente da exibida pelo professor Renan em aula pelos seguintes motivos:
