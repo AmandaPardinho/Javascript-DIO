@@ -11,18 +11,18 @@ console.log("\n\
 
 let precoEtanol = 2.99; //Preço médio do etanol hoje em Campinas - SP
 let precoGasolina = 4.92; //Preço médio da gasolina hoje em Campinas - SP
-let combustivel;
-let gasolina;
-let etanol;
+let combustivel = "Etanol";
 let gastoCombustivel;
 let distanciaViagem = 648; //Distância, em quilômetros, de ida de Campinas (SP) à Cabo Frio (RJ)
 
-if(combustivel === gasolina){
+
+
+if(combustivel === "Gasolina"){
     gastoCombustivel = ((distanciaViagem * precoGasolina)/12);
-    console.log(gastoCombustivel);
+    console.log(gastoCombustivel.toFixed(2));
 }else{
     gastoCombustivel = ((distanciaViagem * precoEtanol)/9);
-    console.log(gastoCombustivel);
+    console.log(gastoCombustivel.toFixed(2));
 };
 
 
