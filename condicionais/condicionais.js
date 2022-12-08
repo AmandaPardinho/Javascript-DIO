@@ -15,8 +15,6 @@ let combustivel = "Etanol";
 let gastoCombustivel;
 let distanciaViagem = 648; //Distância, em quilômetros, de ida de Campinas (SP) à Cabo Frio (RJ)
 
-
-
 if(combustivel === "Gasolina"){
     gastoCombustivel = ((distanciaViagem * precoGasolina)/12);
     console.log(gastoCombustivel.toFixed(2));
@@ -24,5 +22,3 @@ if(combustivel === "Gasolina"){
     gastoCombustivel = ((distanciaViagem * precoEtanol)/9);
     console.log(gastoCombustivel.toFixed(2));
 };
-
-
