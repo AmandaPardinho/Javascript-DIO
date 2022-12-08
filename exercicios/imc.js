@@ -11,3 +11,34 @@ Condição do peso de adultos, de acordo com o IMC:\n\
 -Entre 25 e 30: acima do peso;\n\
 -Entre 30 e 40: obeso;\n\
 -Acima de 40: obesidade mórbida.");
+
+//variáveis
+let peso;
+let altura;
+let imc = peso / (altura * altura);
+
+const readline = require(`node:readline`);
+const {stdin: input, stdout: output} = require(`node:process`);
+
+const leitor = readline.createInterface({
+    input,
+    output
+});
+
+leitor.question("Qual o seu peso?", (answer1) =>{
+    leitor.question("Qual a sua altura?", (answer2) =>{
+        let imc = (+answer1 / (+answer2 * +answer2));
+        console.log(`Seu IMC é ${imc.toFixed(1)}`);
+        if(imc < 18.5){
+            console.log("Abaixo do peso");
+        }else if(imc >= 18.5 && imc < 25){
+            console.log("Peso normal");
+        }else if(imc >= 25 && imc < 30){
+            console.log("Acima do peso");
+        }else if(imc >= 30 && imc < 40){
+            console.log("Obeso");
+        }else{
+            console.log("Obesidade mórbida");
+        };
+    });
+});
