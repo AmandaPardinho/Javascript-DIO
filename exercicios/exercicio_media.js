@@ -22,7 +22,7 @@ leitor.question("Qual é a nota n1?", (answer1) => {
             console.log(`Sua média final é ${media.toFixed(2)}`);
             if(media >= 7){
                 console.log("Parabéns!!! Você foi aprovado!");
-            }else if(media >= 5 && media < 7){
+            }else if(media >= 5 && media <= 7){
                 console.log("Exame");
             }else{
                 console.log("Reprovado");
