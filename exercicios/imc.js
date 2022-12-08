@@ -12,11 +12,6 @@ Condição do peso de adultos, de acordo com o IMC:\n\
 -Entre 30 e 40: obeso;\n\
 -Acima de 40: obesidade mórbida.");
 
-//variáveis
-let peso;
-let altura;
-let imc = peso / (altura * altura);
-
 const readline = require(`node:readline`);
 const {stdin: input, stdout: output} = require(`node:process`);
 
