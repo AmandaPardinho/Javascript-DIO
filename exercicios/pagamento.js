@@ -12,19 +12,19 @@ let debito = (valorEtiqueta * 0.9);
 let dinheiroPix = (valorEtiqueta * 0.85);
 let duasVezes = valorEtiqueta;
 let acimaDuasVezes = (valorEtiqueta * 1.1);
+let formaPagamento = dinheiroPix;
 let totalAPagar;
-let formaPagamento = debito;
 
-if(formaPagamento === debito){
+if (formaPagamento === debito) {
     totalAPagar = debito;
-    console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
-}else if(formaPagamento === dinheiroPix){
+    console.log("\nO valor a ser pago é de R$ " + totalAPagar.toFixed(2));
+} else if (formaPagamento === dinheiroPix) {
     totalAPagar = dinheiroPix;
-    console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
-}else if(formaPagamento === duasVezes){
+    console.log("\nO valor a ser pago é de R$ " + totalAPagar.toFixed(2));
+} else if (formaPagamento === duasVezes) {
     totalAPagar = duasVezes;
-    console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
-}else {
+    console.log("\nO valor a ser pago é de R$ " + totalAPagar.toFixed(2));
+} else if (formaPagamento === acimaDuasVezes) {
     totalAPagar = acimaDuasVezes;
-    console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
+    console.log("\nO valor a ser pago é de R$ " + totalAPagar.toFixed(2));
 };
