@@ -7,23 +7,24 @@ Condições de pagamento:\n\
 -Acima de 2x: preço da etiqueta com acréscimo de 10% de juros.\n");
 
 //variáveis
-let debito;
-let dinheiroPix;
-let duasVezes;
-let acimaDuasVezes;
-let valorEtiqueta;
+let valorEtiqueta = 100.99;
+let debito = (valorEtiqueta * 0.9);
+let dinheiroPix = (valorEtiqueta * 0.85);
+let duasVezes = valorEtiqueta;
+let acimaDuasVezes = (valorEtiqueta * 1.1);
 let totalAPagar;
+let formaPagamento = debito;
 
-if(debito === true){
-    totalAPagar = valorEtiqueta * 0.9;
+if(formaPagamento === debito){
+    totalAPagar = debito;
     console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
-}else if(dinheiroPix === true){
-    totalAPagar = valorEtiqueta * 0.85;
+}else if(formaPagamento === dinheiroPix){
+    totalAPagar = dinheiroPix;
     console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
-}else if(duasVezes === true){
-    totalAPagar = valorEtiqueta;
+}else if(formaPagamento === duasVezes){
+    totalAPagar = duasVezes;
     console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
 }else {
-    totalAPagar = valorEtiqueta * 1.1;
+    totalAPagar = acimaDuasVezes;
     console.log("O valor a ser pago é de R$ " + totalAPagar.toFixed(2));
 };
