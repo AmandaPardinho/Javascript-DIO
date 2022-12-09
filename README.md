@@ -16,12 +16,24 @@
 ---
 ## Condicionais
 > Nesta segunda aula, foi apresentada a estrutura if/else, estrutura condicional que aceita dois tipos de resposta: verdadeiro ou falso. De acordo com a resposta encontrada, o programa seguirá por um determinado caminho.
+> 
 > No desafio proposto na aula, refizemos o exercício da viagem de carro feito anteriormente, porém tivemos que determinar qual combustível é usado pelo carro e, com isso, calcular o valor gasto na viagem. Assim como no desafio anterior, procurei resolvê-lo antes do professor e minha resolução ficou ligeiramente diferente daquela proposta pelo professor Renan em aula, pois:
 > 
 > - Fiz algumas alterações no enunciado do problema.
 > - Defini valores diferentes para as variáveis.
 > 
-> Gostaria de ter implementado uma interação com o usuário através do terminal neste problema, mas não foi possível neste momento. Tal implementação foi feita em exercícios posteriores.
+> Gostaria de ter implementado uma interação com o usuário através do terminal neste problema, mas não foi possível neste momento (tentei fazer com um método que encontrei e falava que deveria fazer um import de um módulo, mas ele não funcionou). Tal implementação foi feita em exercícios posteriores.
+---
+## Exercícios
+> Os próximos três exercícios propostos foram exercícios de fixação. Neles, a proposta era trabalhar com as estruturas condicionais que havíamos aprendido durante o módulo. 
+> 
+> Para isso, exemplos que tinham contextos diferentes foram propostos. Apesar da temática diferente, a resolução dos três exercícios é basicamente a mesma. Abaixo encontram-se as descrições de cada um deles. 
+---
+### Exercício Média
+---
+### IMC
+---
+### Pagamento
 ---
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
