@@ -7,7 +7,7 @@ Dada a fórmula do IMC, elabore um algoritmo que, dado o peso e a altura de uma 
 \n\
 Condição do peso de adultos, de acordo com o IMC:\n\
 -Abaixo de 18.5: abaixo do peso;\n\
--Entre 18.5 e 25: peso normalize;\n\
+-Entre 18.5 e 25: peso normal;\n\
 -Entre 25 e 30: acima do peso;\n\
 -Entre 30 e 40: obeso;\n\
 -Acima de 40: obesidade mórbida.\n");
