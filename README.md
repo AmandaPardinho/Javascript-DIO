@@ -14,6 +14,15 @@
 >
 > Apesar dessas pequenas diferenças, se rodarem o código que eu escrevi com os mesmos valores usados pelo professor Renan na aula, chegarão no mesmo resultado.
 ---
+## Condicionais
+> Nesta segunda aula, foi apresentada a estrutura if/else, estrutura condicional que aceita dois tipos de resposta: verdadeiro ou falso. De acordo com a resposta encontrada, o programa seguirá por um determinado caminho.
+> No desafio proposto na aula, refizemos o exercício da viagem de carro feito anteriormente, porém tivemos que determinar qual combustível é usado pelo carro e, com isso, calcular o valor gasto na viagem. Assim como no desafio anterior, procurei resolvê-lo antes do professor e minha resolução ficou ligeiramente diferente daquela proposta pelo professor Renan em aula, pois:
+> 
+> - Fiz algumas alterações no enunciado do problema.
+> - Defini valores diferentes para as variáveis.
+> 
+> Gostaria de ter implementado uma interação com o usuário através do terminal neste problema, mas não foi possível neste momento. Tal implementação foi feita em exercícios posteriores.
+---
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
